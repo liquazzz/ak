@@ -1,4 +1,4 @@
-const FIXED_UUID = '';// stallTCP.js from https://t.me/Enkelte_notif/784
+const FIXED_UUID = 'aa4503b4-cbd6-4123-928e-ee13b8dfcf60';// stallTCP.js from https://t.me/Enkelte_notif/784
 import { connect } from "cloudflare:sockets";
 let 反代IP = '';
 let 启用SOCKS5反代 = null;
@@ -373,4 +373,5 @@ async function socks5Connect(targetHost, targetPort) {
     w.releaseLock();
     r.releaseLock();
     return sock;
+
 }
